@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D10664F1E6406A000488A62 /* HRGThirdPartyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D10664E1E6406A000488A62 /* HRGThirdPartyManager.m */; };
+		3D13453E1E60057600F32BA0 /* HRGThirdPartyLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13453D1E60057600F32BA0 /* HRGThirdPartyLoginManager.m */; };
+		3DE6992A1E5D446700464996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE699291E5D446700464996 /* main.m */; };
+		3DE6992D1E5D446700464996 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6992C1E5D446700464996 /* AppDelegate.m */; };
+		3DE699301E5D446700464996 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6992F1E5D446700464996 /* ViewController.m */; };
+		3DE699331E5D446700464996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE699311E5D446700464996 /* Main.storyboard */; };
+		3DE699351E5D446700464996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE699341E5D446700464996 /* Assets.xcassets */; };
+		3DE699381E5D446700464996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE699361E5D446700464996 /* LaunchScreen.storyboard */; };
+		3DE699431E5D446700464996 /* HRGThirdPartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE699421E5D446700464996 /* HRGThirdPartyTests.m */; };
+		3DE6994E1E5D446700464996 /* HRGThirdPartyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6994D1E5D446700464996 /* HRGThirdPartyUITests.m */; };
+		3DE6997A1E5D6B3E00464996 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699641E5D6B3E00464996 /* libWeiboSDK.a */; };
+		3DE6997B1E5D6B3E00464996 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DE6996E1E5D6B3E00464996 /* WeiboSDK.bundle */; };
+		3DE6997C1E5D6B3E00464996 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699721E5D6B3E00464996 /* TencentOpenAPI.framework */; };
+		3DE6997D1E5D6B3E00464996 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DE699731E5D6B3E00464996 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		3DE6997E1E5D6B3E00464996 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699751E5D6B3E00464996 /* libWeChatSDK.a */; };
+		3DE6997F1E5D6B3E00464996 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3DE699761E5D6B3E00464996 /* README.txt */; };
+		3DE699811E5D6B7F00464996 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699801E5D6B7F00464996 /* CoreText.framework */; };
+		3DE699831E5D6B8600464996 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699821E5D6B8600464996 /* ImageIO.framework */; };
+		3DE699851E5D6B8D00464996 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699841E5D6B8D00464996 /* QuartzCore.framework */; };
+		3DE699871E5D6B9A00464996 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699861E5D6B9A00464996 /* libc++.tbd */; };
+		3DE699891E5D6BA300464996 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699881E5D6BA300464996 /* libz.tbd */; };
+		3DE6998B1E5D6BB300464996 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE6998A1E5D6BB300464996 /* libstdc++.tbd */; };
+		3DE6998D1E5D6BBC00464996 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE6998C1E5D6BBC00464996 /* CoreTelephony.framework */; };
+		3DE6998F1E5D6BC500464996 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE6998E1E5D6BC500464996 /* libsqlite3.tbd */; };
+		3DE699911E5D6BD000464996 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699901E5D6BD000464996 /* CoreGraphics.framework */; };
+		3DE699931E5D6BE300464996 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699921E5D6BE300464996 /* SystemConfiguration.framework */; };
+		3DE699951E5D6C0A00464996 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699941E5D6C0A00464996 /* libiconv.tbd */; };
+		3DE699971E5D6C1200464996 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE699961E5D6C1200464996 /* Security.framework */; };
+		3DE6999A1E5D6EEF00464996 /* HRGShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE699991E5D6EEF00464996 /* HRGShareManager.m */; };
+		3DE6999D1E5D7A2600464996 /* HRGShareContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6999C1E5D7A2600464996 /* HRGShareContentItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DE6993F1E5D446700464996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE6991D1E5D446700464996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE699241E5D446700464996;
+			remoteInfo = HRGThirdParty;
+		};
+		3DE6994A1E5D446700464996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE6991D1E5D446700464996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE699241E5D446700464996;
+			remoteInfo = HRGThirdParty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D10664D1E6406A000488A62 /* HRGThirdPartyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRGThirdPartyManager.h; sourceTree = "<group>"; };
+		3D10664E1E6406A000488A62 /* HRGThirdPartyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRGThirdPartyManager.m; sourceTree = "<group>"; };
+		3D13453C1E60057600F32BA0 /* HRGThirdPartyLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRGThirdPartyLoginManager.h; sourceTree = "<group>"; };
+		3D13453D1E60057600F32BA0 /* HRGThirdPartyLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRGThirdPartyLoginManager.m; sourceTree = "<group>"; };
+		3DE699251E5D446700464996 /* HRGThirdParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRGThirdParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE699291E5D446700464996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DE6992B1E5D446700464996 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DE6992C1E5D446700464996 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DE6992E1E5D446700464996 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DE6992F1E5D446700464996 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DE699321E5D446700464996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DE699341E5D446700464996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DE699371E5D446700464996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DE699391E5D446700464996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE6993E1E5D446700464996 /* HRGThirdPartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRGThirdPartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE699421E5D446700464996 /* HRGThirdPartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRGThirdPartyTests.m; sourceTree = "<group>"; };
+		3DE699441E5D446700464996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE699491E5D446700464996 /* HRGThirdPartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRGThirdPartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE6994D1E5D446700464996 /* HRGThirdPartyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRGThirdPartyUITests.m; sourceTree = "<group>"; };
+		3DE6994F1E5D446700464996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE699641E5D6B3E00464996 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		3DE699651E5D6B3E00464996 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		3DE699661E5D6B3E00464996 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		3DE699671E5D6B3E00464996 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		3DE699681E5D6B3E00464996 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		3DE699691E5D6B3E00464996 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		3DE6996A1E5D6B3E00464996 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		3DE6996B1E5D6B3E00464996 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		3DE6996C1E5D6B3E00464996 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		3DE6996D1E5D6B3E00464996 /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		3DE6996E1E5D6B3E00464996 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		3DE6996F1E5D6B3E00464996 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		3DE699701E5D6B3E00464996 /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		3DE699721E5D6B3E00464996 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		3DE699731E5D6B3E00464996 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		3DE699751E5D6B3E00464996 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		3DE699761E5D6B3E00464996 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3DE699771E5D6B3E00464996 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		3DE699781E5D6B3E00464996 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3DE699791E5D6B3E00464996 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		3DE699801E5D6B7F00464996 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3DE699821E5D6B8600464996 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3DE699841E5D6B8D00464996 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3DE699861E5D6B9A00464996 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3DE699881E5D6BA300464996 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3DE6998A1E5D6BB300464996 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		3DE6998C1E5D6BBC00464996 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3DE6998E1E5D6BC500464996 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3DE699901E5D6BD000464996 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DE699921E5D6BE300464996 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3DE699941E5D6C0A00464996 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		3DE699961E5D6C1200464996 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3DE699981E5D6EEF00464996 /* HRGShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRGShareManager.h; sourceTree = "<group>"; };
+		3DE699991E5D6EEF00464996 /* HRGShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRGShareManager.m; sourceTree = "<group>"; };
+		3DE6999B1E5D7A2600464996 /* HRGShareContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRGShareContentItem.h; sourceTree = "<group>"; };
+		3DE6999C1E5D7A2600464996 /* HRGShareContentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRGShareContentItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DE699221E5D446700464996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE699971E5D6C1200464996 /* Security.framework in Frameworks */,
+				3DE699951E5D6C0A00464996 /* libiconv.tbd in Frameworks */,
+				3DE699931E5D6BE300464996 /* SystemConfiguration.framework in Frameworks */,
+				3DE699911E5D6BD000464996 /* CoreGraphics.framework in Frameworks */,
+				3DE6998F1E5D6BC500464996 /* libsqlite3.tbd in Frameworks */,
+				3DE6998D1E5D6BBC00464996 /* CoreTelephony.framework in Frameworks */,
+				3DE6998B1E5D6BB300464996 /* libstdc++.tbd in Frameworks */,
+				3DE699891E5D6BA300464996 /* libz.tbd in Frameworks */,
+				3DE699871E5D6B9A00464996 /* libc++.tbd in Frameworks */,
+				3DE699851E5D6B8D00464996 /* QuartzCore.framework in Frameworks */,
+				3DE699831E5D6B8600464996 /* ImageIO.framework in Frameworks */,
+				3DE699811E5D6B7F00464996 /* CoreText.framework in Frameworks */,
+				3DE6997A1E5D6B3E00464996 /* libWeiboSDK.a in Frameworks */,
+				3DE6997C1E5D6B3E00464996 /* TencentOpenAPI.framework in Frameworks */,
+				3DE6997E1E5D6B3E00464996 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE6993B1E5D446700464996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE699461E5D446700464996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4D337E1E5E94FC00F2CCDF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699961E5D6C1200464996 /* Security.framework */,
+				3DE699941E5D6C0A00464996 /* libiconv.tbd */,
+				3DE699921E5D6BE300464996 /* SystemConfiguration.framework */,
+				3DE699901E5D6BD000464996 /* CoreGraphics.framework */,
+				3DE6998E1E5D6BC500464996 /* libsqlite3.tbd */,
+				3DE6998C1E5D6BBC00464996 /* CoreTelephony.framework */,
+				3DE6998A1E5D6BB300464996 /* libstdc++.tbd */,
+				3DE699881E5D6BA300464996 /* libz.tbd */,
+				3DE699861E5D6B9A00464996 /* libc++.tbd */,
+				3DE699841E5D6B8D00464996 /* QuartzCore.framework */,
+				3DE699821E5D6B8600464996 /* ImageIO.framework */,
+				3DE699801E5D6B7F00464996 /* CoreText.framework */,
+			);
+			name = Framework;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3DE6991C1E5D446700464996 = {
+			isa = PBXGroup;
+			children = (
+				3DE699271E5D446700464996 /* HRGThirdParty */,
+				3DE699411E5D446700464996 /* HRGThirdPartyTests */,
+				3DE6994C1E5D446700464996 /* HRGThirdPartyUITests */,
+				3DE699261E5D446700464996 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DE699261E5D446700464996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699251E5D446700464996 /* HRGThirdParty.app */,
+				3DE6993E1E5D446700464996 /* HRGThirdPartyTests.xctest */,
+				3DE699491E5D446700464996 /* HRGThirdPartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DE699271E5D446700464996 /* HRGThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				3D4D337E1E5E94FC00F2CCDF /* Framework */,
+				3DE699621E5D6B3E00464996 /* Lib */,
+				3DE6992B1E5D446700464996 /* AppDelegate.h */,
+				3DE6992C1E5D446700464996 /* AppDelegate.m */,
+				3DE6992E1E5D446700464996 /* ViewController.h */,
+				3DE6992F1E5D446700464996 /* ViewController.m */,
+				3DE6999B1E5D7A2600464996 /* HRGShareContentItem.h */,
+				3DE6999C1E5D7A2600464996 /* HRGShareContentItem.m */,
+				3D10664D1E6406A000488A62 /* HRGThirdPartyManager.h */,
+				3D10664E1E6406A000488A62 /* HRGThirdPartyManager.m */,
+				3DE699981E5D6EEF00464996 /* HRGShareManager.h */,
+				3DE699991E5D6EEF00464996 /* HRGShareManager.m */,
+				3D13453C1E60057600F32BA0 /* HRGThirdPartyLoginManager.h */,
+				3D13453D1E60057600F32BA0 /* HRGThirdPartyLoginManager.m */,
+				3DE699311E5D446700464996 /* Main.storyboard */,
+				3DE699341E5D446700464996 /* Assets.xcassets */,
+				3DE699361E5D446700464996 /* LaunchScreen.storyboard */,
+				3DE699391E5D446700464996 /* Info.plist */,
+				3DE699281E5D446700464996 /* Supporting Files */,
+			);
+			path = HRGThirdParty;
+			sourceTree = "<group>";
+		};
+		3DE699281E5D446700464996 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699291E5D446700464996 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DE699411E5D446700464996 /* HRGThirdPartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699421E5D446700464996 /* HRGThirdPartyTests.m */,
+				3DE699441E5D446700464996 /* Info.plist */,
+			);
+			path = HRGThirdPartyTests;
+			sourceTree = "<group>";
+		};
+		3DE6994C1E5D446700464996 /* HRGThirdPartyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE6994D1E5D446700464996 /* HRGThirdPartyUITests.m */,
+				3DE6994F1E5D446700464996 /* Info.plist */,
+			);
+			path = HRGThirdPartyUITests;
+			sourceTree = "<group>";
+		};
+		3DE699621E5D6B3E00464996 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699631E5D6B3E00464996 /* libWeiboSDK */,
+				3DE699711E5D6B3E00464996 /* Tencent3.1.3 */,
+				3DE699741E5D6B3E00464996 /* WeChatSDK1.7.6 */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		3DE699631E5D6B3E00464996 /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699641E5D6B3E00464996 /* libWeiboSDK.a */,
+				3DE699651E5D6B3E00464996 /* WBHttpRequest+WeiboGame.h */,
+				3DE699661E5D6B3E00464996 /* WBHttpRequest+WeiboShare.h */,
+				3DE699671E5D6B3E00464996 /* WBHttpRequest+WeiboToken.h */,
+				3DE699681E5D6B3E00464996 /* WBHttpRequest+WeiboUser.h */,
+				3DE699691E5D6B3E00464996 /* WBHttpRequest.h */,
+				3DE6996A1E5D6B3E00464996 /* WBSDKBasicButton.h */,
+				3DE6996B1E5D6B3E00464996 /* WBSDKCommentButton.h */,
+				3DE6996C1E5D6B3E00464996 /* WBSDKRelationshipButton.h */,
+				3DE6996D1E5D6B3E00464996 /* WeiboSDK+Statistics.h */,
+				3DE6996E1E5D6B3E00464996 /* WeiboSDK.bundle */,
+				3DE6996F1E5D6B3E00464996 /* WeiboSDK.h */,
+				3DE699701E5D6B3E00464996 /* WeiboUser.h */,
+			);
+			path = libWeiboSDK;
+			sourceTree = "<group>";
+		};
+		3DE699711E5D6B3E00464996 /* Tencent3.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699721E5D6B3E00464996 /* TencentOpenAPI.framework */,
+				3DE699731E5D6B3E00464996 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = Tencent3.1.3;
+			sourceTree = "<group>";
+		};
+		3DE699741E5D6B3E00464996 /* WeChatSDK1.7.6 */ = {
+			isa = PBXGroup;
+			children = (
+				3DE699751E5D6B3E00464996 /* libWeChatSDK.a */,
+				3DE699761E5D6B3E00464996 /* README.txt */,
+				3DE699771E5D6B3E00464996 /* WechatAuthSDK.h */,
+				3DE699781E5D6B3E00464996 /* WXApi.h */,
+				3DE699791E5D6B3E00464996 /* WXApiObject.h */,
+			);
+			path = WeChatSDK1.7.6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DE699241E5D446700464996 /* HRGThirdParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE699521E5D446700464996 /* Build configuration list for PBXNativeTarget "HRGThirdParty" */;
+			buildPhases = (
+				3DE699211E5D446700464996 /* Sources */,
+				3DE699221E5D446700464996 /* Frameworks */,
+				3DE699231E5D446700464996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRGThirdParty;
+			productName = HRGThirdParty;
+			productReference = 3DE699251E5D446700464996 /* HRGThirdParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DE6993D1E5D446700464996 /* HRGThirdPartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE699551E5D446700464996 /* Build configuration list for PBXNativeTarget "HRGThirdPartyTests" */;
+			buildPhases = (
+				3DE6993A1E5D446700464996 /* Sources */,
+				3DE6993B1E5D446700464996 /* Frameworks */,
+				3DE6993C1E5D446700464996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE699401E5D446700464996 /* PBXTargetDependency */,
+			);
+			name = HRGThirdPartyTests;
+			productName = HRGThirdPartyTests;
+			productReference = 3DE6993E1E5D446700464996 /* HRGThirdPartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DE699481E5D446700464996 /* HRGThirdPartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE699581E5D446700464996 /* Build configuration list for PBXNativeTarget "HRGThirdPartyUITests" */;
+			buildPhases = (
+				3DE699451E5D446700464996 /* Sources */,
+				3DE699461E5D446700464996 /* Frameworks */,
+				3DE699471E5D446700464996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE6994B1E5D446700464996 /* PBXTargetDependency */,
+			);
+			name = HRGThirdPartyUITests;
+			productName = HRGThirdPartyUITests;
+			productReference = 3DE699491E5D446700464996 /* HRGThirdPartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DE6991D1E5D446700464996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HRG;
+				TargetAttributes = {
+					3DE699241E5D446700464996 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8EQVKY3PT3;
+						ProvisioningStyle = Manual;
+					};
+					3DE6993D1E5D446700464996 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3DE699241E5D446700464996;
+					};
+					3DE699481E5D446700464996 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3DE699241E5D446700464996;
+					};
+				};
+			};
+			buildConfigurationList = 3DE699201E5D446700464996 /* Build configuration list for PBXProject "HRGThirdParty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DE6991C1E5D446700464996;
+			productRefGroup = 3DE699261E5D446700464996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DE699241E5D446700464996 /* HRGThirdParty */,
+				3DE6993D1E5D446700464996 /* HRGThirdPartyTests */,
+				3DE699481E5D446700464996 /* HRGThirdPartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DE699231E5D446700464996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE699381E5D446700464996 /* LaunchScreen.storyboard in Resources */,
+				3DE699351E5D446700464996 /* Assets.xcassets in Resources */,
+				3DE699331E5D446700464996 /* Main.storyboard in Resources */,
+				3DE6997D1E5D6B3E00464996 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				3DE6997F1E5D6B3E00464996 /* README.txt in Resources */,
+				3DE6997B1E5D6B3E00464996 /* WeiboSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE6993C1E5D446700464996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE699471E5D446700464996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DE699211E5D446700464996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE699301E5D446700464996 /* ViewController.m in Sources */,
+				3DE6992D1E5D446700464996 /* AppDelegate.m in Sources */,
+				3DE6999D1E5D7A2600464996 /* HRGShareContentItem.m in Sources */,
+				3D10664F1E6406A000488A62 /* HRGThirdPartyManager.m in Sources */,
+				3DE6992A1E5D446700464996 /* main.m in Sources */,
+				3D13453E1E60057600F32BA0 /* HRGThirdPartyLoginManager.m in Sources */,
+				3DE6999A1E5D6EEF00464996 /* HRGShareManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE6993A1E5D446700464996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE699431E5D446700464996 /* HRGThirdPartyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE699451E5D446700464996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE6994E1E5D446700464996 /* HRGThirdPartyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DE699401E5D446700464996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE699241E5D446700464996 /* HRGThirdParty */;
+			targetProxy = 3DE6993F1E5D446700464996 /* PBXContainerItemProxy */;
+		};
+		3DE6994B1E5D446700464996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE699241E5D446700464996 /* HRGThirdParty */;
+			targetProxy = 3DE6994A1E5D446700464996 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DE699311E5D446700464996 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE699321E5D446700464996 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DE699361E5D446700464996 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE699371E5D446700464996 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DE699501E5D446700464996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DE699511E5D446700464996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DE699531E5D446700464996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XIAOJING WENG (N3373F6UT8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8EQVKY3PT3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRGThirdParty/Lib/Tencent3.1.3",
+				);
+				INFOPLIST_FILE = HRGThirdParty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRGThirdParty/Lib/libWeiboSDK",
+					"$(PROJECT_DIR)/HRGThirdParty/Lib/WeChatSDK1.7.6",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrgame.zgh.appstore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a86ab6a-513c-42d3-ab31-bf2e206226b9";
+				PROVISIONING_PROFILE_SPECIFIER = zgxls_dev;
+			};
+			name = Debug;
+		};
+		3DE699541E5D446700464996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8EQVKY3PT3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRGThirdParty/Lib/Tencent3.1.3",
+				);
+				INFOPLIST_FILE = HRGThirdParty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HRGThirdParty/Lib/libWeiboSDK",
+					"$(PROJECT_DIR)/HRGThirdParty/Lib/WeChatSDK1.7.6",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrgame.zgh.appstore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a86ab6a-513c-42d3-ab31-bf2e206226b9";
+				PROVISIONING_PROFILE_SPECIFIER = zgxls_dev;
+			};
+			name = Release;
+		};
+		3DE699561E5D446700464996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HRGThirdPartyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hrgame.www.HRGThirdPartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRGThirdParty.app/HRGThirdParty";
+			};
+			name = Debug;
+		};
+		3DE699571E5D446700464996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HRGThirdPartyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hrgame.www.HRGThirdPartyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRGThirdParty.app/HRGThirdParty";
+			};
+			name = Release;
+		};
+		3DE699591E5D446700464996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HRGThirdPartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hrgame.www.HRGThirdPartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HRGThirdParty;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3DE6995A1E5D446700464996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HRGThirdPartyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.hrgame.www.HRGThirdPartyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HRGThirdParty;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DE699201E5D446700464996 /* Build configuration list for PBXProject "HRGThirdParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE699501E5D446700464996 /* Debug */,
+				3DE699511E5D446700464996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE699521E5D446700464996 /* Build configuration list for PBXNativeTarget "HRGThirdParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE699531E5D446700464996 /* Debug */,
+				3DE699541E5D446700464996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE699551E5D446700464996 /* Build configuration list for PBXNativeTarget "HRGThirdPartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE699561E5D446700464996 /* Debug */,
+				3DE699571E5D446700464996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE699581E5D446700464996 /* Build configuration list for PBXNativeTarget "HRGThirdPartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE699591E5D446700464996 /* Debug */,
+				3DE6995A1E5D446700464996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DE6991D1E5D446700464996 /* Project object */;
+}
